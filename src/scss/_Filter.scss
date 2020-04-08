@@ -1,0 +1,40 @@
+
+
+#g-filter {
+  flex: 0 1 300px;
+  padding: 0px 15px 15px;
+
+
+  #g-search {
+
+    width: calc(100% - 22px);
+    position: relative;
+
+
+  }
+
+  #g-biomes {
+    select {
+      width: 100%;
+      background: #f7f7f7;
+      box-shadow: inset 0 2px 2px 0 rgba(34,34,34,.1);
+      border-radius: 3px;
+      border: none;
+      color: #3b3b3b;
+      text-align: left;
+      height: 35px;
+      outline:none;
+    }
+  }
+
+  #g-levels {
+    .levels-wrapper {
+      padding-bottom: 5px;
+
+      input {
+        cursor: pointer;
+      }
+    }
+  }
+
+}

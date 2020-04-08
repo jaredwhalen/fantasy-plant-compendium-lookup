@@ -1,0 +1,58 @@
+#g-results {
+  flex: 0 1 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+
+  .g-card {
+    @extend .g-widget;
+    display: flex;
+
+    .g-add {
+      flex: 0 0 36px;
+      font-size: 24px;
+      cursor: pointer;
+      opacity: 0.7;
+      &:hover {
+        opacity: 1;
+      }
+      .fa-plus-circle {
+        color: #06BA63;
+      }
+      .fa-minus-circle {
+        color: #F8333C;
+      }
+    }
+
+    .g-inner {
+      .name {
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .info {
+        display: flex;
+
+        div {
+          margin: 5px 0px;
+          border-radius: 5px;
+          padding: 2px 4px;
+          font-weight: bold;
+          margin-right: 5px;
+        }
+
+        .biome {
+          display: inline;
+          background-color: rgba(#D17A22, 0.3);
+        }
+
+        .level {
+          isplay: inline;
+          background-color: rgba(#ACA885, 0.3);
+        }
+      }
+    }
+
+
+  }
+}
