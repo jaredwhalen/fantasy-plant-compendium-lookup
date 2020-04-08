@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fantasy-plant-compendium-lookup/static/css/main.e584da56.chunk.css",
+    "main.js": "/fantasy-plant-compendium-lookup/static/js/main.913eca57.chunk.js",
+    "main.js.map": "/fantasy-plant-compendium-lookup/static/js/main.913eca57.chunk.js.map",
+    "runtime-main.js": "/fantasy-plant-compendium-lookup/static/js/runtime-main.664d376c.js",
+    "runtime-main.js.map": "/fantasy-plant-compendium-lookup/static/js/runtime-main.664d376c.js.map",
+    "static/js/2.a5aa6215.chunk.js": "/fantasy-plant-compendium-lookup/static/js/2.a5aa6215.chunk.js",
+    "static/js/2.a5aa6215.chunk.js.map": "/fantasy-plant-compendium-lookup/static/js/2.a5aa6215.chunk.js.map",
+    "index.html": "/fantasy-plant-compendium-lookup/index.html",
+    "precache-manifest.0c06e8e19d9f110a74c06c76c0d5c251.js": "/fantasy-plant-compendium-lookup/precache-manifest.0c06e8e19d9f110a74c06c76c0d5c251.js",
+    "service-worker.js": "/fantasy-plant-compendium-lookup/service-worker.js",
+    "static/css/main.e584da56.chunk.css.map": "/fantasy-plant-compendium-lookup/static/css/main.e584da56.chunk.css.map",
+    "static/js/2.a5aa6215.chunk.js.LICENSE.txt": "/fantasy-plant-compendium-lookup/static/js/2.a5aa6215.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.664d376c.js",
+    "static/js/2.a5aa6215.chunk.js",
+    "static/css/main.e584da56.chunk.css",
+    "static/js/main.913eca57.chunk.js"
+  ]
+}
