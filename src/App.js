@@ -25,21 +25,23 @@ class App extends Component {
   }
 
   async componentDidMount() {
-    const arr = [];
+    // const arr = [];
+    //
+    // const doc = new GoogleSpreadsheet('1iIVcK-e-0vKtbrfmlR9ViJhc7sxifqmYhcEHcG5RcWI');
+    // await doc.useServiceAccountAuth(require('./.config.json'));
+    // await doc.loadInfo(); // loads document properties and worksheets
+    // const sheet = doc.sheetsById[0];
+    // const rows = await sheet.getRows();
+    //
+    // rows.map((d) => arr.push({
+    //   name: d.name,
+    //   biome: d.biome,
+    //   detail: d.detail,
+    //   level: d.level,
+    //   code: d.gid
+    // }))
 
-    const doc = new GoogleSpreadsheet('1iIVcK-e-0vKtbrfmlR9ViJhc7sxifqmYhcEHcG5RcWI');
-    await doc.useServiceAccountAuth(require('./.config.json'));
-    await doc.loadInfo(); // loads document properties and worksheets
-    const sheet = doc.sheetsById[0];
-    const rows = await sheet.getRows();
-
-    rows.map((d) => arr.push({
-      name: d.name,
-      biome: d.biome,
-      detail: d.detail,
-      level: d.level,
-      code: d.gid
-    }))
+    const arr = require('./assets/data.json')
 
     this.setState({ data: arr });
   }
