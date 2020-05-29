@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fantasy-plant-compendium-lookup/precache-manifest.0c06e8e19d9f110a74c06c76c0d5c251.js"
+  "/fantasy-plant-compendium-lookup/precache-manifest.fcb5d1f54dd4d80da0468d93f397d8ba.js"
 );
 
 self.addEventListener('message', (event) => {
